@@ -8,15 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showDimensionsPicker = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color.white
+                .ignoresSafeArea()
+            
+            Button {
+                withAnimation {
+                    showDimensionsPicker = true
+                }
+            } label: {
+                Text("Start")
+            }
+            .padding()
+            .frame(minWidth: 100)
+            .foregroundColor(.white)
+            .background(.blue)
+            .clipShape(Capsule())
+            
+            if showDimensionsPicker {
+                DimensionsPickerView(presentMyself: $showDimensionsPicker)
+            }
         }
-        .padding()
     }
+    
+    
 }
 
 #Preview {

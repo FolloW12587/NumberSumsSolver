@@ -11,6 +11,13 @@
 		A11B18A32BF966F800A9E9FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18A22BF966F800A9E9FA /* ContentView.swift */; };
 		A11B18A52BF966F900A9E9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11B18A42BF966F900A9E9FA /* Assets.xcassets */; };
 		A11B18A82BF966F900A9E9FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11B18A72BF966F900A9E9FA /* Preview Assets.xcassets */; };
+		A11B18AF2BF967D900A9E9FA /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18AE2BF967D900A9E9FA /* Solver.swift */; };
+		A11B18B12BF96CA300A9E9FA /* DimensionsPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18B02BF96CA300A9E9FA /* DimensionsPickerView.swift */; };
+		A11B18B32BF96CB800A9E9FA /* IntegerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18B22BF96CB800A9E9FA /* IntegerTextField.swift */; };
+		A11B18B52BF9724400A9E9FA /* PositiveIntegerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18B42BF9724400A9E9FA /* PositiveIntegerTextField.swift */; };
+		A11B18B72BF9757F00A9E9FA /* BoardInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18B62BF9757F00A9E9FA /* BoardInputView.swift */; };
+		A11B18B92BF9B46000A9E9FA /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18B82BF9B46000A9E9FA /* CellView.swift */; };
+		A11B18BB2BF9B7A700A9E9FA /* SumCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11B18BA2BF9B7A700A9E9FA /* SumCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		A11B18A22BF966F800A9E9FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A11B18A42BF966F900A9E9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11B18A72BF966F900A9E9FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A11B18AE2BF967D900A9E9FA /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		A11B18B02BF96CA300A9E9FA /* DimensionsPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionsPickerView.swift; sourceTree = "<group>"; };
+		A11B18B22BF96CB800A9E9FA /* IntegerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerTextField.swift; sourceTree = "<group>"; };
+		A11B18B42BF9724400A9E9FA /* PositiveIntegerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveIntegerTextField.swift; sourceTree = "<group>"; };
+		A11B18B62BF9757F00A9E9FA /* BoardInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardInputView.swift; sourceTree = "<group>"; };
+		A11B18B82BF9B46000A9E9FA /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		A11B18BA2BF9B7A700A9E9FA /* SumCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				A11B18A02BF966F800A9E9FA /* NumberSumsSolverApp.swift */,
 				A11B18A22BF966F800A9E9FA /* ContentView.swift */,
+				A11B18AE2BF967D900A9E9FA /* Solver.swift */,
+				A11B18B02BF96CA300A9E9FA /* DimensionsPickerView.swift */,
+				A11B18B62BF9757F00A9E9FA /* BoardInputView.swift */,
+				A11B18B82BF9B46000A9E9FA /* CellView.swift */,
+				A11B18BA2BF9B7A700A9E9FA /* SumCellView.swift */,
+				A11B18B22BF96CB800A9E9FA /* IntegerTextField.swift */,
+				A11B18B42BF9724400A9E9FA /* PositiveIntegerTextField.swift */,
 				A11B18A42BF966F900A9E9FA /* Assets.xcassets */,
 				A11B18A62BF966F900A9E9FA /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11B18A32BF966F800A9E9FA /* ContentView.swift in Sources */,
+				A11B18BB2BF9B7A700A9E9FA /* SumCellView.swift in Sources */,
+				A11B18B52BF9724400A9E9FA /* PositiveIntegerTextField.swift in Sources */,
 				A11B18A12BF966F800A9E9FA /* NumberSumsSolverApp.swift in Sources */,
+				A11B18AF2BF967D900A9E9FA /* Solver.swift in Sources */,
+				A11B18B92BF9B46000A9E9FA /* CellView.swift in Sources */,
+				A11B18B12BF96CA300A9E9FA /* DimensionsPickerView.swift in Sources */,
+				A11B18B72BF9757F00A9E9FA /* BoardInputView.swift in Sources */,
+				A11B18B32BF96CB800A9E9FA /* IntegerTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +306,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +316,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.comp.NumberSumsSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +338,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +348,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.comp.NumberSumsSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
